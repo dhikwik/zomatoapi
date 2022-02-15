@@ -1,9 +1,11 @@
+https://zomatodhiksha.herokuapp.com/
 Page 1
 List of city
 > http://localhost:6700/location
 > 
 List of restaurants 
 > http://localhost:6700/zomato
+https://zomatodhiksha.herokuapp.com/restaurant
 > 
 restaurants wrt to city 
 
