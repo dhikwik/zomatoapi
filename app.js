@@ -75,6 +75,14 @@ app.get('/menuType',(req,res) => {
     })
 })
 
+// state
+app.get('/states',(req,res) => {
+    db.collection('state').find().toArray((err,result) =>{
+        if(err) throw err;
+        res.send(result)
+    })
+})
+
 //rest details
 app.get('/details/:id',(req,res) => {
     let restId  = Number(req.params.id)
